@@ -1,6 +1,7 @@
 # Prebuilt Checkout page with subscriptions
 
  The client- and server-side code redirects to a prebuilt payment page hosted on Stripe. 
+ 
 
 ## Running the sample
 
