@@ -50,7 +50,8 @@ app.post('/create-portal-session', async (req, res) => {
 
   res.redirect(303, portalSession.url);
 });
-
+ 
+// This webhook part please check how to integrate it at your end 
 app.post(
   '/webhook',
   express.raw({ type: 'application/json' }),
@@ -60,7 +61,7 @@ app.post(
     // If you are testing with the CLI, find the secret by running 'stripe listen'
     // If you are using an endpoint defined with the API or dashboard, look in your webhook settings
     // at https://dashboard.stripe.com/webhooks
-    const endpointSecret = 'whsec_12345';
+    const endpointSecret = 'whsec_12345'; //example
     // Only verify the event if you have an endpoint secret defined.
     // Otherwise use the basic event deserialized with JSON.parse
     if (endpointSecret) {
