@@ -2,8 +2,8 @@
 
  The client- and server-side code redirects to a prebuilt payment page hosted on Stripe. 
  
-
-## Running the sample
+* just got a mail saying gpay not supported
+## Running the sample 
 
 1. Build the server
 

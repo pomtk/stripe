@@ -11,7 +11,7 @@ app.post('/create-checkout-session', async (req, res) => {
   const session = await stripe.checkout.sessions.create({
     line_items: [
       {
-        // Provide the exact Price ID (for example, pr_1234) of the product you want to sell
+        // can also use preset price and product id created in stripe but i guess that will not be needed
         price_data: {
           currency: 'inr',
           product_data: {
