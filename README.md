@@ -1,5 +1,4 @@
-# Prebuilt Checkout page with subscriptions
-
+# Prebuilt Checkout page with Checkout/Payment Option
  The client- and server-side code redirects to a prebuilt payment page hosted on Stripe. 
  
 * just got a mail saying gpay not supported
