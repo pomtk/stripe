@@ -17,7 +17,7 @@ app.post('/create-checkout-session', async (req, res) => {
           product_data: {
             name: 'Plan',
           },
-          unit_amount: 2000,
+          unit_amount: 2000, // takes lowest units that is if Rs20 multiply by 100
         },
         quantity: 1,
       },
