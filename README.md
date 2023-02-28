@@ -17,3 +17,9 @@ npm start
 ~~~
 
 3. Go to [http://localhost:4242/checkout.html](http://localhost:4242/checkout.html)
+
+4. For testing cards : 
+    4242 4242 4242 4242 : Payment succeeds
+    4000 0025 0000 3155 : Payment requires authentication
+    4000 0000 0000 9995 : Payment is declined
+
