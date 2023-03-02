@@ -1,5 +1,5 @@
 // This is your test secret API key.
-const stripe = require('stripe')('sk_test_51MgMBuSARskrOXimTYIvdN84eAro3qQn3ubnBc4q13wNEDBGIKlMQB1GQJn6p5fbNng1kA76ziTTHoTYmZzW3mbV00qdz1gzrZ');
+const stripe = require('stripe')('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');
 
 const express = require('express');
 const app = express();
@@ -13,11 +13,11 @@ app.post('/create-checkout-session', async (req, res) => {
       {
         // can also use preset price and product id created in stripe but i guess that will not be needed
         price_data: {
-          currency: 'inr',
+          currency: 'usd',
           product_data: {
             name: 'Plan',
           },
-          unit_amount: 2000, // takes lowest units that is if Rs20 multiply by 100
+          unit_amount: 100, // takes lowest units that is if Rs20 multiply by 100
         },
         quantity: 1,
       },
