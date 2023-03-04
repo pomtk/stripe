@@ -4,7 +4,7 @@
 * just got a mail saying gpay not supported
 ## Running the sample 
 
-0. Keys live : https://www.protectedtext.com/stripe_sheru  password : your name in lowercase no space
+0. Keys live : https://www.protectedtext.com/stripe_sheru  password : your full name in lowercase no space
 
 1. Build the server
 
